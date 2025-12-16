@@ -252,18 +252,18 @@ const contactInfo = [
   {
     icon: <EmailIcon sx={{ fontSize: 32, color: 'white' }} />,
     title: "Email",
-    details: ["contact@stafona.com", "support@stafona.com"]
+    details: ["talha@stafona.com", "nauman@stafona.com"]
   },
   {
     icon: <PhoneIcon sx={{ fontSize: 32, color: 'white' }} />,
     title: "Phone",
-    details: ["+1 (555) 123-4567", "+1 (555) 987-6543"]
+    details: ["+92 321 5031780", "+92 336 0007007"]
   },
   {
     icon: <LocationOnIcon sx={{ fontSize: 32, color: 'white' }} />,
     title: "Office",
-    details: ["123 Tech Avenue", "Silicon Valley, CA 94025"]
-  }
+      details: ["1503 St 41-A, Bahria Town Phase IV Phase 4 Bahria Town, Rawalpindi, Pakistan"]
+    }
 ];
 
 const socialLinks = [

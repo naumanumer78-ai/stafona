@@ -438,8 +438,8 @@ const MobileNav: React.FC = () => {
             <a href="/">
               <img
                 loading="lazy"
-                src="/images/LOGO_LOCKUP_BLACK.svg"
-                alt="Trackstack"
+                src="/images/logo.avif"
+                alt="Stafona"
                 className="h-6 w-auto"
               />
             </a>
@@ -487,7 +487,7 @@ const MobileNav: React.FC = () => {
                 Our Services
               </ActiveLink>
 
-              <ActiveLink
+              {/* <ActiveLink
                 href="/projects"
                 onClick={closeMenu}
                 className="block pb-2 px-3 text-[#0D1117] hover:bg-gray-50 rounded-md"
@@ -501,7 +501,7 @@ const MobileNav: React.FC = () => {
                 }}
               >
                 Projects
-              </ActiveLink>
+              </ActiveLink> */}
 
               <ActiveLink
                 href="/about"
@@ -815,13 +815,13 @@ const DesktopNav: React.FC<{ onMegaMenuOpenChange?: (open: boolean) => void; meg
             Our Services
           </ActiveLink>
           
-          <ActiveLink 
+          {/* <ActiveLink 
             href="/projects" 
             className="px-3 py-2 text-sm font-medium text-white/80 hover:text-white transition-colors relative"
             activeClassName="text-white after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:bg-gradient-to-r after:from-[#667eea] after:to-[#764ba2]"
           >
             Projects
-          </ActiveLink>
+          </ActiveLink> */}
           
           <ActiveLink 
             href="/about" 
