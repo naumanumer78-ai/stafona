@@ -465,16 +465,16 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Talha Malik</h3>
               <p className="text-[#667eea] font-semibold mb-4">CEO</p>
-              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 1 ? '' : 'line-clamp-4'}`}>
+              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 0 ? '' : 'line-clamp-4'}`}>
                 Talha holds an MSc in Control Systems Engineering from the University of Sheffield and a B.E. in Avionics Engineering from NUST, and I am a Certified Professional Engineer (PEC). I spent seven years as a Navigation Systems Engineer at AERO, gaining deep technical expertise in complex systems.
                 As CEO, I leverage my engineering background and experience in project and team management to align technical teams with business goals and drive strategic growth.
                 Since 2009, we have served clients across the globe, consistently earning their trust and admiration—because while we may compromise on finances, we never compromise on the confidence clients place in us.
               </p>
               <button
-                onClick={() => setExpandedTeamMember(expandedTeamMember === 1 ? null : 1)}
+                onClick={() => setExpandedTeamMember(expandedTeamMember === 0 ? null : 0)}
                 className="text-[#667eea] hover:text-[#764ba2] text-sm font-semibold mt-2"
               >
-                {expandedTeamMember === 1 ? 'See Less' : 'See More +'}
+                {expandedTeamMember === 0 ? 'See Less' : 'See More +'}
               </button>
             </div>
 
@@ -488,14 +488,14 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Nauman Umer</h3>
               <p className="text-[#667eea] font-semibold mb-4">CTO</p>
-              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 0 ? '' : 'line-clamp-4'}`}>
+              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 1 ? '' : 'line-clamp-4'}`}>
                 Nauman is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
               </p>
               <button
-                onClick={() => setExpandedTeamMember(expandedTeamMember === 0 ? null : 0)}
+                onClick={() => setExpandedTeamMember(expandedTeamMember === 1 ? null : 1)}
                 className="text-[#667eea] hover:text-[#764ba2] text-sm font-semibold mt-2"
               >
-                {expandedTeamMember === 0 ? 'See Less' : 'See More +'}
+                {expandedTeamMember === 1 ? 'See Less' : 'See More +'}
               </button>
             </div>
             <div className="bg-[#131929] p-6 rounded-xl border border-white/10 hover:border-[#667eea]/50 transition-all hover:transform hover:-translate-y-2">
@@ -508,14 +508,14 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Numair Tariq</h3>
               <p className="text-[#667eea] font-semibold mb-4">Manager Operations</p>
-              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 1 ? '' : 'line-clamp-4'}`}>
-              Nauman is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
+              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 2 ? '' : 'line-clamp-4'}`}>
+              Numair is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
               </p>
               <button
-                onClick={() => setExpandedTeamMember(expandedTeamMember === 1 ? null : 1)}
+                onClick={() => setExpandedTeamMember(expandedTeamMember === 2 ? null : 2)}
                 className="text-[#667eea] hover:text-[#764ba2] text-sm font-semibold mt-2"
               >
-                {expandedTeamMember === 1 ? 'See Less' : 'See More +'}
+                {expandedTeamMember === 2 ? 'See Less' : 'See More +'}
               </button>
             </div>
 
@@ -529,14 +529,14 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Rohail Shahid</h3>
               <p className="text-[#667eea] font-semibold mb-4">Technical Lead</p>
-              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 0 ? '' : 'line-clamp-4'}`}>
+              <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 3 ? '' : 'line-clamp-4'}`}>
                 Rohail specializes in delivering high-quality software by building robust automation frameworks using Playwright with the Page Object Model, along with advanced AI-driven testing through Claude Code, Playwright MCP, and Amazon's Nova Act. He brings 8+ years of experience in both manual and automation testing, combining scalable frameworks with strong CI/CD practices to reduce bugs and accelerate release cycles. Rohail translates complex business requirements into clear, testable workflows while collaborating closely with product and engineering teams. His focus remains on leveraging modern AI tools to expand test coverage, improve delivery speed, and ensure a seamless, reliable user experience.
               </p>
               <button
-                onClick={() => setExpandedTeamMember(expandedTeamMember === 0 ? null : 0)}
+                onClick={() => setExpandedTeamMember(expandedTeamMember === 3 ? null : 3)}
                 className="text-[#667eea] hover:text-[#764ba2] text-sm font-semibold mt-2"
               >
-                {expandedTeamMember === 0 ? 'See Less' : 'See More +'}
+                {expandedTeamMember === 3 ? 'See Less' : 'See More +'}
               </button>
             </div>
           </div>
@@ -573,3 +573,4 @@ export default function HomePage() {
     </div>
   );
 }
+ 

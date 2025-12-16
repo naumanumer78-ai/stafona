@@ -22,7 +22,7 @@ const teamMembers = [
     role: "Manager Operations",
     image: "/images/alpha/numair.jpeg",
     invertImage: false,
-    bio: "Nauman is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment."
+    bio: "Numair is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment."
   },
   {
     name: "Rohail Shahid",

@@ -167,12 +167,12 @@ export default function AboutPage() {
 }
 
 const stats = [
-  { number: "15+", label: "Years", description: "Of Excellence" },
-  { number: "500+", label: "Projects", description: "Completed" },
-  { number: "200+", label: "Clients", description: "Worldwide" },
-  { number: "50+", label: "Team", description: "Members" },
-  { number: "25+", label: "Countries", description: "Served" },
-  { number: "98%", label: "Satisfaction", description: "Rate" }
+  { number: "10+", label: "Years", description: "Of Excellence" },
+  { number: "50+", label: "Projects", description: "Completed" },
+  { number: "30+", label: "Clients", description: "Worldwide" },
+  { number: "20+", label: "Team", description: "Members" },
+  { number: "10+", label: "Countries", description: "Served" },
+  { number: "100%", label: "Satisfaction", description: "Rate" }
 ];
 
 const values = [

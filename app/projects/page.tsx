@@ -108,13 +108,13 @@ export default function ProjectsPage() {
             <div className="flex gap-4 justify-center flex-wrap">
               <a
                 href="/contact"
-                className="px-8 py-3 bg-white text-[#667eea] rounded-[10px] font-semibold hover:bg-white/90 transition-colors"
+                className="px-8 py-3 bg-white text-[#020202] rounded-[10px] font-semibold hover:bg-white/90 transition-colors"
               >
                 Start Your Project
               </a>
               <a
                 href="/services"
-                className="px-8 py-3 border-2 border-white text-white rounded-[10px] font-semibold hover:bg-white hover:text-[#667eea] transition-colors"
+                className="px-8 py-3 border-2 border-white text-white rounded-[10px] font-semibold hover:bg-white hover:text-[#020202] transition-colors"
               >
                 View Services
               </a>

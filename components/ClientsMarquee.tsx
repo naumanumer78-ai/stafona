@@ -12,11 +12,15 @@ const clients: Client[] = [
   { name: "Skild", logo: "/images/client/skild.webp", invertImage: false },
   { name: "Sugarwish", logo: "/images/client/sugarwish.svg", invertImage: false },
   { name: "Mozaic", logo: "/images/client/mozaic.svg", invertImage: false },
-  { name: "SweetHome3D", logo: "/images/client/sweethome3d.png", invertImage: false },
+  { name: "SweetHome3D", logo: "/images/client/sweet.png", invertImage: false },
   { name: "Cyber Wolf", logo: "/images/client/cyberwolf.png", invertImage: false },
   { name: "SigParser", logo: "/images/client/sigparser.png", invertImage: true },
   { name: "TrackStack", logo: "/images/client/trackstack.svg", invertImage: true },
   { name: "Azavista", logo: "/images/client/azavista.svg", invertImage: false },
+  { name: "Imanu", logo: "/images/client/imanu.svg", invertImage: false },
+  { name: "Oteroqa", logo: "/images/client/oteroqa.png", invertImage: true },
+  { name: "JuiceMind", logo: "/images/client/juice.png", invertImage: true },
+  { name: "Fractionaltax", logo: "/images/client/fractionaltax.svg", invertImage: true },
 ];
 
 export default function ClientsMarquee() {
