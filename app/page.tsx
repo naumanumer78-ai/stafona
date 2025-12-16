@@ -466,9 +466,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold text-white mb-2">Talha Malik</h3>
               <p className="text-[#667eea] font-semibold mb-4">CEO</p>
               <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 0 ? '' : 'line-clamp-4'}`}>
-                Talha holds an MSc in Control Systems Engineering from the University of Sheffield and a B.E. in Avionics Engineering from NUST, and I am a Certified Professional Engineer (PEC). I spent seven years as a Navigation Systems Engineer at AERO, gaining deep technical expertise in complex systems.
-                As CEO, I leverage my engineering background and experience in project and team management to align technical teams with business goals and drive strategic growth.
-                Since 2009, we have served clients across the globe, consistently earning their trust and admiration—because while we may compromise on finances, we never compromise on the confidence clients place in us.
+                Talha holds an MSc in Control Systems Engineering from the University of Sheffield and a B.E. in Avionics Engineering from NUST, and he is a Certified Professional Engineer (PEC). HE spent seven years as a Navigation Systems Engineer at AERO, gaining deep technical expertise in complex systems. As CEO, he leverage my engineering background and experience in project and team management to align technical teams with business goals and drive strategic growth. Since 2009, we have served clients across the globe, consistently earning their trust and admiration—because while we may compromise on finances, we never compromise on the confidence clients place in us.
               </p>
               <button
                 onClick={() => setExpandedTeamMember(expandedTeamMember === 0 ? null : 0)}
@@ -489,7 +487,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold text-white mb-2">Nauman Umer</h3>
               <p className="text-[#667eea] font-semibold mb-4">CTO</p>
               <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 1 ? '' : 'line-clamp-4'}`}>
-              Nauman is a technology leader with 12+ years of experience building and scaling products across healthcare, fintech, CRM (Salesforce), ecommerce, and the creator economy. He leads engineering teams end-to-end—from architecture to delivery—focused on quality, speed, and real business impact.
+                Nauman is a technology leader with 12+ years of experience building and scaling products across healthcare, fintech, CRM (Salesforce), ecommerce, and the creator economy. He leads engineering teams end-to-end—from architecture to delivery—focused on quality, speed, and real business impact.
               </p>
               <button
                 onClick={() => setExpandedTeamMember(expandedTeamMember === 1 ? null : 1)}
@@ -509,7 +507,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold text-white mb-2">Numair Tariq</h3>
               <p className="text-[#667eea] font-semibold mb-4">Manager Operations</p>
               <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 2 ? '' : 'line-clamp-4'}`}>
-              Numair is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
+                Numair is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
               </p>
               <button
                 onClick={() => setExpandedTeamMember(expandedTeamMember === 2 ? null : 2)}
@@ -573,4 +571,3 @@ export default function HomePage() {
     </div>
   );
 }
- 

@@ -252,7 +252,7 @@ const contactInfo = [
   {
     icon: <EmailIcon sx={{ fontSize: 32, color: 'white' }} />,
     title: "Email",
-    details: ["talha@stafona.com", "nauman@stafona.com"]
+    details: ["tmalik@stafona.com", "nauman@stafona.com"]
   },
   {
     icon: <PhoneIcon sx={{ fontSize: 32, color: 'white' }} />,

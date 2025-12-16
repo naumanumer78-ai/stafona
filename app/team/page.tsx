@@ -8,7 +8,7 @@ const teamMembers = [
     role: "CEO",
     image: "/images/alpha/ceo.png",
     invertImage: false,
-      bio: "Talha holds an MSc in Control Systems Engineering from the University of Sheffield and a B.E. in Avionics Engineering from NUST, and I am a Certified Professional Engineer (PEC). I spent seven years as a Navigation Systems Engineer at AERO, gaining deep technical expertise in complex systems. As CEO, I leverage my engineering background and experience in project and team management to align technical teams with business goals and drive strategic growth. Since 2009, we have served clients across the globe, consistently earning their trust and admiration—because while we may compromise on finances, we never compromise on the confidence clients place in us."
+      bio: "Talha holds an MSc in Control Systems Engineering from the University of Sheffield and a B.E. in Avionics Engineering from NUST, and he is a Certified Professional Engineer (PEC). HE spent seven years as a Navigation Systems Engineer at AERO, gaining deep technical expertise in complex systems. As CEO, he leverage my engineering background and experience in project and team management to align technical teams with business goals and drive strategic growth. Since 2009, we have served clients across the globe, consistently earning their trust and admiration—because while we may compromise on finances, we never compromise on the confidence clients place in us."
     },
   {
     name: "Nauman Umer",
