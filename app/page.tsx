@@ -489,7 +489,7 @@ export default function HomePage() {
               <h3 className="text-xl font-bold text-white mb-2">Nauman Umer</h3>
               <p className="text-[#667eea] font-semibold mb-4">CTO</p>
               <p className={`text-white/70 text-sm leading-relaxed ${expandedTeamMember === 1 ? '' : 'line-clamp-4'}`}>
-                Nauman is responsible for overseeing the day-to-day operations of the company, ensuring smooth workflow and efficient resource allocation. His expertise in project management and team leadership helps maintain a productive and collaborative environment.
+              Nauman is a technology leader with 12+ years of experience building and scaling products across healthcare, fintech, CRM (Salesforce), ecommerce, and the creator economy. He leads engineering teams end-to-end—from architecture to delivery—focused on quality, speed, and real business impact.
               </p>
               <button
                 onClick={() => setExpandedTeamMember(expandedTeamMember === 1 ? null : 1)}

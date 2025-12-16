@@ -17,7 +17,7 @@ const clients: Client[] = [
   { name: "SigParser", logo: "/images/client/sigparser.png", invertImage: true },
   { name: "TrackStack", logo: "/images/client/trackstack.svg", invertImage: true },
   { name: "Azavista", logo: "/images/client/azavista.svg", invertImage: false },
-  { name: "Imanu", logo: "/images/client/imanu.svg", invertImage: false },
+  { name: "Imanu", logo: "/images/client/imanum.svg", invertImage: true },
   { name: "Oteroqa", logo: "/images/client/oteroqa.png", invertImage: true },
   { name: "JuiceMind", logo: "/images/client/juice.png", invertImage: true },
   { name: "Fractionaltax", logo: "/images/client/fractionaltax.svg", invertImage: true },
