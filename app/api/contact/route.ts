@@ -1,9 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body = await request.json();
     const { name, email, phone, company, service, message } = body;
@@ -83,6 +82,15 @@ export async function POST(request: NextRequest) {
       `,
     });
 
+    // Check if email to company was sent successfully
+    if (emailToCompany.error) {
+      console.error('Error sending email to company:', emailToCompany.error);
+      return NextResponse.json(
+        { error: 'Failed to send email to company', details: emailToCompany.error },
+        { status: 500 }
+      );
+    }
+
     // Auto-reply to customer
     const autoReply = await resend.emails.send({
       from: process.env.EMAIL_FROM || 'onboarding@resend.dev',
@@ -122,11 +130,24 @@ export async function POST(request: NextRequest) {
       `,
     });
 
+    // Check if auto-reply was sent successfully
+    if (autoReply.error) {
+      console.error('Error sending auto-reply:', autoReply.error);
+      // Still return success since the main email was sent
+      return NextResponse.json(
+        { 
+          message: 'Email sent successfully (auto-reply failed)',
+          emailToCompany: emailToCompany.data?.id
+        },
+        { status: 200 }
+      );
+    }
+
     return NextResponse.json(
       { 
         message: 'Email sent successfully',
-        emailToCompany: emailToCompany.id,
-        autoReply: autoReply.id
+        emailToCompany: emailToCompany.data?.id,
+        autoReply: autoReply.data?.id
       },
       { status: 200 }
     );
