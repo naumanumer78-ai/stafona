@@ -1,0 +1,53 @@
+==========================================
+CONTACT FORM EMAIL SETUP - QUICK START
+==========================================
+
+The contact form email integration is now ready! Follow these steps:
+
+STEP 1: Create a Resend Account
+--------------------------------
+1. Go to https://resend.com and sign up (FREE)
+2. Free tier: 100 emails/day, 3,000/month
+3. Go to https://resend.com/api-keys
+4. Create an API key (starts with "re_")
+5. Copy the API key
+
+STEP 2: Setup Environment Variables
+------------------------------------
+Create a file named ".env.local" in the root directory with:
+
+RESEND_API_KEY=re_your_api_key_here
+EMAIL_FROM=noreply@stafona.com
+EMAIL_TO=contact@stafona.com
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+
+STEP 3: Verify Your Domain (For Production)
+--------------------------------------------
+1. Go to https://resend.com/domains
+2. Add your domain (e.g., stafona.com)
+3. Add the DNS records they provide
+4. Wait for verification
+5. Update EMAIL_FROM to use your domain
+
+STEP 4: Deploy Environment Variables
+-------------------------------------
+For Vercel/Netlify/Other hosts, add these environment variables:
+- RESEND_API_KEY
+- EMAIL_FROM
+- EMAIL_TO  
+- NEXT_PUBLIC_SITE_URL
+
+STEP 5: Test
+------------
+1. Run: npm run dev
+2. Go to /contact page
+3. Submit the form
+4. Check your email!
+
+For detailed instructions, see EMAIL_SETUP.md
+
+==========================================
+
+
+
+
