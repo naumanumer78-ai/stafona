@@ -17,7 +17,7 @@ interface Review {
 
 const reviews: Review[] = [
   {
-    name: "Michael old",
+    name: "Team mozaic",
     position: "CTO",
     company: "TechVentures Inc.",
     review: "Team was professional and efficient. He managed his responsibilities well and communicated clearly.",
@@ -33,15 +33,15 @@ const reviews: Review[] = [
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80"
   },
   {
-    name: "David old",
+    name: "Joe Rains_skild",
     position: "CEO",
-    company: "GlobalRetail Co.",
+    company: "Joe Rains_skild",
     review: "Hardworking, dedicated and thorough. A pleasure to work together. I give that team my highest recommendation.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
   },
   {
-    name: "Emily old",
+    name: "Team Glider_ai",
     position: "Director of Engineering",
     company: "HealthTech Solutions",
     review: "Team has been really helpful with the request. He has completed the work within no time. We will be working again with him in the future. Recommended.",
@@ -57,7 +57,7 @@ const reviews: Review[] = [
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80"
   },
   {
-    name: "Lisa Thompson old",
+    name: "Joe Rains_skild",
     position: "Marketing Director",
     company: "BrandBoost Agency",
     review: "Team's expertise in ReactJS significantly elevated our project, turning intricate requirements into an intuitive and dynamic user experience. Team's dedication to writing clean, efficient code resulted in a robust and scalable application that markedly improved load times and user interaction.",
@@ -65,7 +65,7 @@ const reviews: Review[] = [
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80"
   },
   {
-    name: "Robert old",
+    name: "Joe Rains_skild",
     position: "VP of Technology",
     company: "DataDriven Inc.",
     review: "Team demonstrated exceptional proficiency as a front-end engineer, transforming complex design blueprints into seamless, user-friendly interfaces with remarkable attention to detail. Team's proactive communication and ability to adapt to project changes significantly contributed to our product's success, ensuring deadlines were consistently met without compromising quality.",
@@ -73,7 +73,7 @@ const reviews: Review[] = [
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80"
   },
   {
-    name: "Amanda old",
+    name: "Team Iman",
     position: "Startup Founder",
     company: "EduTech Pro",
     review: "Very professional and did an excellent job. I highly recommend him.",

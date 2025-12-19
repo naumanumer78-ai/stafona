@@ -1,19 +1,21 @@
 import Link from "next/link";
-import Button from "../../../components/Button";
 
 export default function NotFound() {
   return (
     <div className="min-h-screen flex items-center justify-center md:p-[3.5em] p-[1.5625em]" style={{ backgroundColor: 'var(--midnight)' }}>
       <div className="max-w-[37.5em] text-center">
-        <h1 className="md:headline-01 headline-02 text-white mb-[1em]">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
           Product Not Found
         </h1>
-        <p className="body-copy-large text-white/70 mb-[2em]">
+        <p className="text-xl text-white/70 mb-8">
           The product you're looking for doesn't exist or has been moved.
         </p>
-        <Button href="/" variant="primary">
+        <Link 
+          href="/" 
+          className="inline-block px-8 py-3 bg-gradient-to-r from-[#667eea] to-[#764ba2] text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
+        >
           Back to Home
-        </Button>
+        </Link>
       </div>
     </div>
   );
